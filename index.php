@@ -21,6 +21,8 @@ function doRequest(): void
             RequestOptions::TIMEOUT => 5,
             RequestOptions::CONNECT_TIMEOUT => 2,
             RequestOptions::JSON => $data,
+            // Uncommenting this would fix the issue.
+            //RequestOptions::EXPECT => false,
         ]);
 
         if ($response->getStatusCode() === 200) {
