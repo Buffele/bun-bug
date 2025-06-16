@@ -1,29 +1,27 @@
 # Bug Bug
 
 Tested on:
-- Bun 1.2.16 and Windows
+- Bun: 1.2.16+631e67484
+- Windows: Microsoft Windows NT 10.0.26100.0 x64
 
 ## How to run
 
-1.
-
+Install dependencies for Bun:
 ```
 bun install
 ```
 
-2.
-
+Run bun fastify server:
 ```
 bun start
 ```
 
-3.
+Install dependencies for Composer:
 ```
 composer install
 ```
 
-4.
-
+Run PHP script:
 ```
 php index.php
 ```
