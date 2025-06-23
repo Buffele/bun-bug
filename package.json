@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "bun index.ts",
+    "start": "bun fastify.ts",
     "start:bun_serve": "bun bun_serve.ts"
   },
   "dependencies": {
