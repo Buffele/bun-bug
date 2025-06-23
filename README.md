@@ -1,7 +1,7 @@
 # Bug Bug
 
 Tested on:
-- Bun: 1.2.16+631e67484
+- Bun: 1.2.17+282dda62c
 - Windows: Microsoft Windows NT 10.0.26100.0 x64
 
 ## How to run
