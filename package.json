@@ -1,7 +1,9 @@
 {
   "scripts": {
-    "start": "bun fastify.ts",
-    "start:bun_serve": "bun bun_serve.ts"
+    "start": "bun start:fastify",
+    "start:bun_serve": "bun bun_serve.ts",
+    "start:fastify": "bun fastify.ts",
+    "start:node_http": "bun node_http.ts"
   },
   "dependencies": {
     "fastify": "^5.4.0"
